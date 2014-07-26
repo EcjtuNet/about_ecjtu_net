@@ -14,8 +14,8 @@ include("header file.php");
 <div id="page">
      <div id="top">
      <div id="logo_word">
-          <div id="logo"><a href="//www.ecjtu.net"><img src="img/logo.jpg"/></a></div>
-           <div id="word"><img alt="致力于交大学子的生活" src="img/poster.jpg"/></div>
+          <div id="logo"><a href="//www.ecjtu.net"><img src="img/logo.png"/></a></div>
+           <div id="word"><img alt="致力于交大学子的生活" src="img/wenzi.png"/></div>
      </div>
            <div id="nav">
               <nav>
