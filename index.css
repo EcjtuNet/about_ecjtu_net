@@ -12,6 +12,7 @@ ul{ list-style:none;}
 #logo{ margin-top:14px; float:left;}
 #word{margin-left:14px;margin-top:55px;width:184px; border:0; float:left;}
 #nav{ float:left;margin-left:87px;margin-top:50px; _margin-left:20px; font-size:18px;}
+#nav a:hover{ color:#000; }
 .center{ width:925px; margin:0 auto ;}
 #nav_ul li{float:left;width:86px;height:40px;}
 .dif{ color:#000; }	   
