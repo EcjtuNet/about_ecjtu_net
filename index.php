@@ -13,10 +13,11 @@ include("header file.php");
 ?>
 <div id="page">
      <div id="top">
-     <div id="logo_word">
-          <div id="logo"><a href="//www.ecjtu.net"><img src="img/logo.jpg"/></a></div>
-           <div id="word"><img alt="致力于交大学子的生活" src="img/poster.jpg"/></div>
-     </div>
+     <div class="center">
+    	 <div id="logo_word">
+          		<div id="logo"><a href="//www.ecjtu.net"><img src="img/logo.png"/></a></div>
+          		 <div id="word"><img alt="致力于交大学子的生活" src="img/wenzi.png"/></div>
+     		</div>
            <div id="nav">
               <nav>
                    <ul id="nav_ul">
@@ -28,6 +29,7 @@ include("header file.php");
                    </ul>
               </nav>
           </div>
+      </div>
      </div>
      <div id="mid">
         <div id="main">
@@ -35,7 +37,7 @@ include("header file.php");
                  <div id="main_1">
                      <div id="content_1">
                      <div id="img">
-                        <img src="img/still.jpg" alt="关于我们" />
+                        <img src="img/about-banner.png" alt="关于我们" />
                      </div>
                      <div >
                          <div id="us">
@@ -509,4 +511,3 @@ include("header file.php");
 <script type="text/javascript" src="index.js"></script>
 </body>
 </html>
-
