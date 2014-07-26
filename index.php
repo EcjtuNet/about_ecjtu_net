@@ -37,7 +37,7 @@ include("header file.php");
                  <div id="main_1">
                      <div id="content_1">
                      <div id="img">
-                        <img src="img/still.jpg" alt="关于我们" />
+                        <img src="img/about-banner.png" alt="关于我们" />
                      </div>
                      <div >
                          <div id="us">
