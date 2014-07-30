@@ -506,6 +506,7 @@ include("header file.php");
      </div>
 
 </div>
+<script type="text/javascript" src="browser.js"></script>
 <script type="text/javascript" src="index.js"></script>
 </body>
 </html>
