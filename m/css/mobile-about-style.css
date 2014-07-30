@@ -1,0 +1,484 @@
+@charset: "UTF-8";
+
+/*           CSS Reset           */
+/*
+ * http://meyerweb.com/eric/tools/css/reset/    v2.0 | 20110126
+ * License: none (public domain)
+ */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summarytime, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none; }
+
+/*header*/
+#header{
+	width:100%;
+	height:66px;
+	position:relative;
+	background:#2d5a73;
+	background:url(../images/about.png) center #2d5a73 no-repeat;
+}
+	#rixin{
+		height:60px;
+		position:relative;
+		float:left;
+		margin:10px 0 0 10px;
+	}
+		#rixinLogo{
+			width:83px;
+			height:26px;
+			background:url(../images/logo.jpg) -40px -16px no-repeat;
+		}
+		#headText{
+			margin-top:8px;
+			font:400 4px "KaiTi";
+			color:#fff;
+		}
+			
+	#homeLogo{
+		position:relative;
+		width:24px;
+		height:23px;
+		background:url(../images/logo.jpg) -13px 0 no-repeat;
+		float:right;
+		margin:22px;
+	}
+/*footer*/
+#footer{
+	position:relative;
+	float:left;
+	height: 47px;	
+	width:100%;
+	background-color:#2d5a73;
+}
+
+/*mainnav*/
+.nav{
+	font:500 15px "Microsoft YaHei";
+	margin-top:15px;
+}	
+	.nav ul{
+		float:left;
+		width:100%;
+		background-color:#69a4c5;
+	}
+	.nav ul li{
+		float:left;
+		list-style-type:none;
+		position:relative;
+		width:20%;
+	}
+	.nav ul li a{
+		display:block;
+		color:#fff;
+		padding:.25em 1.1em;
+		line-height:18px;
+		text-align:center;
+		text-decoration:none;
+		display:block;
+	}
+	.nav li ul{
+		display:none;
+	}
+	.nav li.yellow{
+		background-color:#ffbc39;
+	}
+
+/*二级列表*/
+.show{
+	display:block !important;
+}
+.nav li li a{
+	color:#8e8d8c;
+	display:block;
+}
+.black a{
+	color:#363636 !important;
+}	
+	/*about*/
+	ul#about{
+		position:absolute;
+		float:left;
+		width:500%;
+		height:26px;
+		left:0;
+		top:44px;
+		background-color:#c2d6e0;
+	}
+	ul#about li{
+		list-style-type:none;
+		position:relative;
+		width:100%;	
+	}
+	ul#about li a{
+		text-decoration:none;
+		display:block;
+		font:bold 12px "Microsoft YaHei";
+		background-color:#c2d6e0;
+	}
+
+	/*thing*/
+	ul#thing{
+		position:absolute;
+		float:left;
+		width:500%;
+		height:26px;
+		left:-100%;
+		top:44px;
+		background-color:#c2d6e0;
+	}
+	ul#thing li{
+		list-style-type:none;
+		position:relative;
+		width:25%;	
+	}
+	ul#thing li a{
+		text-decoration:none;
+		display:block;
+		font:bold 12px "Microsoft YaHei";
+		padding:0.3em;
+		background-color:#c2d6e0;
+	}
+
+	/*team*/
+	ul#team{		
+		position:absolute;
+		float:left;
+		width:500%;
+		height:26px;
+		left:-200%;
+		top:44px;
+		background-color:#c2d6e0;
+	}
+	ul#team li{
+		list-style-type:none;
+		position:relative;
+		width:33%;
+		background-color:#c2d6e0;	
+	}
+	ul#team li:nth-child(4){
+		width:50%;
+	}
+	ul#team li:nth-child(5){
+		width:50%;
+	}
+	ul#team li a{
+		text-decoration:none;
+		display:block;
+		font:bold 12px "Microsoft YaHei";
+		padding:0.3em;
+		background-color:#c2d6e0;
+	}
+
+	/*service*/
+	ul#service{
+		position:absolute;
+		float:left;		
+		width:500%;
+		height:26px;
+		left:-300%;
+		top:44px;
+		background-color:#c2d6e0;
+	}
+	ul#service li{
+		list-style-type:none;
+		position:relative;
+		width:50%;
+		background-color:#c2d6e0;	
+	}
+	ul#service li a{
+		text-decoration:none;
+		display:block;
+		font:bold 12px "Microsoft YaHei";
+		padding:0.3em;
+		background-color:#c2d6e0;
+	}
+
+/*tittleArea*/
+.tittleArea{
+	margin-top:8px;
+	width:98%;
+	margin:0 auto;
+}
+	.tittleLogo{
+		width:9px;
+		height:16px;
+		background-color:#2d5a73;
+		float:left;
+		margin:2px 0 2px 6px;
+	}
+	.tittle{		
+		margin-left:8px;
+		margin-top:4px;
+		line-height:20px;
+	}
+		.tittle h1{
+			font:bold 14px "Microsoft YaHei";
+			color:#61605f;			
+			margin-left:10px;
+		}
+	.tittleLine{
+		height:1px;
+		width:99%;
+		background-color:#696867;
+		clear:left;
+	}
+
+/*content*/
+.content{
+	display:none;
+	min-height:450px;
+}
+/*contentAbout*/
+#contentAbout{
+	position:relative;
+	float:left;
+	width:100%;
+	margin-top:48px;
+	overflow:hidden;
+}
+	.container{
+		margin:0 auto;
+		margin-top:9px;
+		width:96%;
+	}
+		.container p{
+			font:bold 10px "Microsoft YaHei";
+			line-height:22px;
+			text-indent:2em;
+			color:#757575;
+		}
+		.link{
+			clear:left;
+			width:165px;
+			height:45px;
+			margin:21px auto;
+			background-color:#418db7;
+			border-radius:5px;
+			-moz-border-radius:5px; 
+			-webkit-border-radius:5px; 
+			-ms-border-radius:5px;
+			font:bold 22px "Microsoft YaHei";
+		}
+			.link a{
+				display:block;
+				text-decoration:none;
+				color:#fff;
+				line-height:45px;
+				text-align:center;
+			}
+		#ex{
+			margin-bottom:63px;
+		}
+/*contentThing*/
+#contentThing{
+	float:left;
+	margin-top:42px;
+}
+.thing{
+	display:none;
+}
+#contentThing table{
+	margin:0 auto;
+	margin-top:15px;
+	width:96%;
+	font:bold 10px "Microsoft YaHei";
+	color:#757575;
+	border-collapse: collapse;
+}
+	#contentThing tr{
+		line-height:15px;
+		max-height:30px;
+	}
+	#contentThing table td{
+		border-bottom:10px solid #fff;
+		border-right:25px solid #fff;
+	}
+	/*
+	.triangle{
+		width:0px;
+		height:0px;
+		border:19px transparent solid;
+		border-top:13px #757575 solid;
+		position:absolute;
+		top:350px;
+		left:45%;
+	}
+		.triangle a{
+			display:block;
+		}
+
+	.triangle{
+		width:0px;
+		height:0px;
+		border:19px transparent solid;
+		border-bottom:13px #757575 solid;
+		position:absolute;
+		top:3px;
+		left:45%;
+	}
+	*/
+
+/*contentTeam*/
+#contentTeam{
+	position:relative;
+	float:left;
+	width:96%;
+	margin-top:56px;
+}
+.team{
+	display:none;
+}
+
+.team h1{
+	font:bold 14px "Microsoft YaHei";
+	color:#363636;
+	margin-top:8px;
+	margin-left:16px;
+}
+#contentTeam table{
+	margin:0 auto;
+	margin-top:15px;
+	font:bold 10px "Microsoft YaHei";
+	color:#757575;
+	border-collapse: collapse;
+	width:96%;	
+}
+	#contentTeam tr{
+		line-height:12px;
+		max-height:15px;
+	}
+	#contentTeam table td{
+		border-bottom:10px solid #fff;
+		width:30%;
+		text-align:center;
+	}
+	#contentTeam table td:first-child{
+		width:35%;
+		text-align:left;
+	}
+	#contentTeam table td:last-child{
+		width:45%;
+		text-align:right;
+	}
+#webmaster{
+	margin:0 auto;
+	margin-top:12px;
+	font:bold 10px "Microsoft YaHei";
+	color:#757575;
+	border-collapse: collapse;
+}
+	#webmaster tr{
+		line-height:12px;
+		max-height:15px;
+	}
+	#webmaster td{
+		border-bottom:8px solid #fff;
+		width:76%;
+		text-align:center !important;
+	}
+/*contentService*/
+#contentService{
+	position:relative;
+	float:left;
+	margin-top:32px;
+	padding:0 12px;
+	width:96%;
+}
+.service{
+	display:none;
+}
+#service1{
+	margin:0 auto;
+}
+#service1 h1{
+	font:bold 14px "Microsoft YaHei";
+	color:#363636;
+	margin-top:8px;
+	margin-right:8px;
+	line-height:14px;
+	text-align:center;
+}
+#service1 h2{
+	font:bold 14px "Microsoft YaHei";
+	color:#363636;
+	margin-right:8px;
+}
+#service1 p{
+	font:bold 8px "Microsoft YaHei";
+	color:#757575;
+	line-height:16px;
+	text-indent:2em;
+}
+
+#service2 table{
+	margin-top:15px;
+	color:#757575;
+	border-collapse: collapse;
+	width:100%
+}
+	#service2 table th{
+		font:bold 12px "Microsoft YaHei";
+		color:#363636;
+		border-bottom:2px solid #fff;
+		text-align:center;
+	}
+	#service2 table th:first-child{
+		text-align:left;
+	}
+	#service2 table tr{
+		font:bold 10px "Microsoft YaHei";
+		line-height:16px;
+		max-height:30px;
+		text-align:center;
+	}
+	#service2 table tr:last-child{
+		text-align:left;
+	}
+	#service2 table td{
+		border-bottom:5px solid #fff;
+		width:20%;
+	}
+	#service2 table td:first-child{
+		text-align:left;
+	}
+#service2 h2{
+	margin-top:10px;
+	font:bold 12px "Microsoft YaHei";
+	color:#363636;
+}
+#service2 p{
+	font:bold 10px "Microsoft YaHei";
+	color:#757575;
+	line-height:15px;
+}
+
+
