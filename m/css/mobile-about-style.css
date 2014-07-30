@@ -125,12 +125,10 @@ a:link, a:visited, a:hover, a:active {
 }	
 	/*about*/
 	ul#about{
-		position:absolute;
 		float:left;
 		width:500%;
 		height:26px;
-		left:0;
-		top:44px;
+		margin-left:0;
 		background-color:#c2d6e0;
 	}
 	ul#about li{
@@ -147,12 +145,10 @@ a:link, a:visited, a:hover, a:active {
 
 	/*thing*/
 	ul#thing{
-		position:absolute;
 		float:left;
 		width:500%;
 		height:26px;
-		left:-100%;
-		top:44px;
+		margin-left:-100%;
 		background-color:#c2d6e0;
 	}
 	ul#thing li{
@@ -170,12 +166,10 @@ a:link, a:visited, a:hover, a:active {
 
 	/*team*/
 	ul#team{		
-		position:absolute;
 		float:left;
 		width:500%;
 		height:26px;
-		left:-200%;
-		top:44px;
+		margin-left:-200%;
 		background-color:#c2d6e0;
 	}
 	ul#team li{
@@ -200,12 +194,10 @@ a:link, a:visited, a:hover, a:active {
 
 	/*service*/
 	ul#service{
-		position:absolute;
 		float:left;		
 		width:500%;
 		height:26px;
-		left:-300%;
-		top:44px;
+		margin-left:-300%;
 		background-color:#c2d6e0;
 	}
 	ul#service li{
@@ -224,15 +216,16 @@ a:link, a:visited, a:hover, a:active {
 
 /*tittleArea*/
 .tittleArea{
+	position:relative;
 	margin-top:8px;
 	width:98%;
 	margin:0 auto;
 }
 	.tittleLogo{
+		float:left;
 		width:9px;
 		height:16px;
 		background-color:#2d5a73;
-		float:left;
 		margin:2px 0 2px 6px;
 	}
 	.tittle{		
@@ -241,9 +234,10 @@ a:link, a:visited, a:hover, a:active {
 		line-height:20px;
 	}
 		.tittle h1{
+			float:left;
 			font:bold 14px "Microsoft YaHei";
 			color:#61605f;			
-			margin-left:10px;
+			margin-left:4px;
 		}
 	.tittleLine{
 		height:1px;
@@ -259,11 +253,8 @@ a:link, a:visited, a:hover, a:active {
 }
 /*contentAbout*/
 #contentAbout{
-	position:relative;
-	float:left;
 	width:100%;
-	margin-top:48px;
-	overflow:hidden;
+	margin:95px auto 0;
 }
 	.container{
 		margin:0 auto;
@@ -300,8 +291,7 @@ a:link, a:visited, a:hover, a:active {
 		}
 /*contentThing*/
 #contentThing{
-	float:left;
-	margin-top:42px;
+	margin:95px auto 0;
 }
 .thing{
 	display:none;
@@ -309,7 +299,7 @@ a:link, a:visited, a:hover, a:active {
 #contentThing table{
 	margin:0 auto;
 	margin-top:15px;
-	width:96%;
+	width:90%;
 	font:bold 10px "Microsoft YaHei";
 	color:#757575;
 	border-collapse: collapse;
@@ -319,8 +309,10 @@ a:link, a:visited, a:hover, a:active {
 		max-height:30px;
 	}
 	#contentThing table td{
-		border-bottom:10px solid #fff;
-		border-right:25px solid #fff;
+		border-bottom:10px solid transparent;
+	}
+	#contentThing table td:last-child{
+		padding-left:18%;
 	}
 	/*
 	.triangle{
@@ -349,10 +341,8 @@ a:link, a:visited, a:hover, a:active {
 
 /*contentTeam*/
 #contentTeam{
-	position:relative;
-	float:left;
-	width:96%;
-	margin-top:56px;
+	width:98%;
+	margin:120px auto 0px;
 }
 .team{
 	display:none;
@@ -362,62 +352,64 @@ a:link, a:visited, a:hover, a:active {
 	font:bold 14px "Microsoft YaHei";
 	color:#363636;
 	margin-top:8px;
-	margin-left:16px;
+	margin-left:20px;
 }
-#contentTeam table{
+.team table{
 	margin:0 auto;
 	margin-top:15px;
 	font:bold 10px "Microsoft YaHei";
 	color:#757575;
 	border-collapse: collapse;
-	width:96%;	
+	width:96%;
+	margin-left:20px;	
 }
-	#contentTeam tr{
+	.team tr{
 		line-height:12px;
 		max-height:15px;
 	}
-	#contentTeam table td{
+	.team table td{
 		border-bottom:10px solid #fff;
-		width:30%;
+		width:20%;
 		text-align:center;
 	}
-	#contentTeam table td:first-child{
+	.team table td:first-child{
 		width:35%;
 		text-align:left;
 	}
-	#contentTeam table td:last-child{
-		width:45%;
-		text-align:right;
+	.team table td:last-child{
+		width:55%;
+		text-align:left;
+		padding-left:18%;
 	}
-#webmaster{
+#webmaster table {
+	width:72%;
 	margin:0 auto;
-	margin-top:12px;
+	margin-top:8px;
 	font:bold 10px "Microsoft YaHei";
 	color:#757575;
 	border-collapse: collapse;
 }
-	#webmaster tr{
+	#webmaster table td{
 		line-height:12px;
 		max-height:15px;
+		border-bottom:10px solid #fff;
+		text-align:left;
 	}
-	#webmaster td{
-		border-bottom:8px solid #fff;
-		width:76%;
-		text-align:center !important;
+	#webmaster table td:last-child{
+		padding-left:30%;
 	}
+
 /*contentService*/
 #contentService{
-	position:relative;
-	float:left;
-	margin-top:32px;
-	padding:0 12px;
-	width:96%;
+	margin:95px auto 0;
+	width:100%;
 }
 .service{
 	display:none;
 }
 #service1{
 	margin:0 auto;
+	width:88%;
 }
 #service1 h1{
 	font:bold 14px "Microsoft YaHei";
@@ -428,7 +420,7 @@ a:link, a:visited, a:hover, a:active {
 	text-align:center;
 }
 #service1 h2{
-	font:bold 14px "Microsoft YaHei";
+	font:bold 12px "Microsoft YaHei";
 	color:#363636;
 	margin-right:8px;
 }
@@ -438,9 +430,12 @@ a:link, a:visited, a:hover, a:active {
 	line-height:16px;
 	text-indent:2em;
 }
-
+#service2{
+	width:94%;
+	margin:0 auto;
+}
 #service2 table{
-	margin-top:15px;
+	margin:15px auto 0;
 	color:#757575;
 	border-collapse: collapse;
 	width:100%
