@@ -300,7 +300,11 @@ include("header file.php");
                  <div id="main_3">
                           <div class="side">
                               <ul>
-                                  <li><a class="grp_a bright">日新站长</a></li>
+                                  <li><a class="grp_a bright">2001</a></li>
+                                  <li><a class="grp_a">新闻出版中心</a></li>
+                                  <li><a class="grp_a">技术研发中心</a></li>
+                                  <li><a class="grp_a">行政管理中心</a></li>
+                                  <li><a class="grp_a">产品运营中心</a></li>
                                   <li><a class="grp_a">新闻出版中心</a></li>
                                   <li><a class="grp_a">技术研发中心</a></li>
                                   <li><a class="grp_a">行政管理中心</a></li>
