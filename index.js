@@ -196,6 +196,31 @@
 		display('show',group[6],group,'group');
 		display('bright',grpA[6],grpA,'grp_a');
 		};
+		grpA[7].onmouseover=function(){
+		sentCookie(grpA[7]);
+		display('show',group[7],group,'group');
+		display('bright',grpA[7],grpA,'grp_a');
+		};
+		grpA[8].onmouseover=function(){
+		sentCookie(grpA[8]);
+		display('show',group[8],group,'group');
+		display('bright',grpA[8],grpA,'grp_a');
+		};
+		grpA[9].onmouseover=function(){
+		sentCookie(grpA[9]);
+		display('show',group[9],group,'group');
+		display('bright',grpA[9],grpA,'grp_a');
+		};
+		grpA[10].onmouseover=function(){
+		sentCookie(grpA[10]);
+		display('show',group[10],group,'group');
+		display('bright',grpA[10],grpA,'grp_a');
+		};
+		grpA[11].onmouseover=function(){
+		sentCookie(grpA[12]);
+		display('show',group[13],group,'group');
+		display('bright',grpA[13],grpA,'grp_a');
+		};
 	adA[0].onmouseover=function(){
 		sentCookie(adA[0]);
 		display('show',ad[0],ad,'ad');

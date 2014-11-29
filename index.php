@@ -338,7 +338,7 @@ include("header file.php");
                               <div>
                                   <ul>
                                   <?php
-                                      $sql = "SELECT * FROM `office` ORDER BY `id`  ASC limit 10,10";
+                                      $sql = "SELECT * FROM `office` ORDER BY `id`  ASC limit 9,10";
                                       $query = mysql_query($sql);
                                       while ($rs = mysql_fetch_array($query)) {
                                   ?>
@@ -355,7 +355,7 @@ include("header file.php");
                               <div>
                                   <ul>                                  
                                   <?php
-                                       $sql = "SELECT * FROM `office` ORDER BY `id` ASC limit 20,10";
+                                       $sql = "SELECT * FROM `office` ORDER BY `id` ASC limit 19,10";
                                       $query = mysql_query($sql);
                                       while ($rs = mysql_fetch_array($query)) {
                                   ?>
@@ -372,7 +372,7 @@ include("header file.php");
                               <div>
                                   <ul>
                                   <?php
- 									  $sql = "SELECT * FROM `office` ORDER BY `id` ASC limit 30,17";
+ 									  $sql = "SELECT * FROM `office` ORDER BY `id` ASC limit 29,17";
                                       $query = mysql_query($sql);
                                       while ($rs = mysql_fetch_array($query)) {
                                   ?>
@@ -389,7 +389,7 @@ include("header file.php");
                               <div>
                                  <ul>
                                   <?php
-									  $sql = "SELECT * FROM `office` ORDER BY `id` ASC limit 47,24";
+									  $sql = "SELECT * FROM `office` ORDER BY `id` ASC limit 46,24";
                                       $query = mysql_query($sql);
                                       while ($rs = mysql_fetch_array($query)) {
                                   ?>
@@ -406,7 +406,7 @@ include("header file.php");
                               <div>
                                   <ul>
                                   <?php
-									  $sql = "SELECT * FROM `office` ORDER BY `id` ASC limit 70,21";
+									  $sql = "SELECT * FROM `office` ORDER BY `id` ASC limit 69,21";
                                       $query = mysql_query($sql);
                                       while ($rs = mysql_fetch_array($query)) {
                                   ?>
@@ -423,7 +423,7 @@ include("header file.php");
                               <div>
                                   <ul>
                                   <?php
-									  $sql = "SELECT * FROM `office` ORDER BY `id` ASC limit 91,29";
+									  $sql = "SELECT * FROM `office` ORDER BY `id` ASC limit 90,29";
                                       $query = mysql_query($sql);
                                       while ($rs = mysql_fetch_array($query)) {
                                   ?>
@@ -441,7 +441,7 @@ include("header file.php");
                               <div>
                               	  <ul>
                                   <?php
-									  $sql = "SELECT * FROM `office` ORDER BY `id` ASC limit 120,40";
+									  $sql = "SELECT * FROM `office` ORDER BY `id` ASC limit 119,40";
                                       $query = mysql_query($sql);
                                       while ($rs = mysql_fetch_array($query)) {
                                   ?>
@@ -458,7 +458,7 @@ include("header file.php");
                               <div>
                               	  <ul>
                                   <?php
-									  $sql = "SELECT * FROM `office` ORDER BY `id` ASC limit 160,30";
+									  $sql = "SELECT * FROM `office` ORDER BY `id` ASC limit 159,30";
                                       $query = mysql_query($sql);
                                       while ($rs = mysql_fetch_array($query)) {
                                   ?>
