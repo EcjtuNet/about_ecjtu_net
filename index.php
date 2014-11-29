@@ -310,17 +310,17 @@ include("header file.php");
         
                  <div class="content"> <!-- 管理团队 -->
                           <div class="group show">
-                              <h3>日新站长</h3>
                               <div>
                                   <?php
-                                      $sql = "SELECT * FROM `office` ORDER BY `id`  DESC limit 0,30";
+                                      $sql = "SELECT * FROM `office` ORDER BY `id`  DESC limit 0,10";
                                       $query = mysql_query($sql);
                                       while ($rs = mysql_fetch_array($query)) {
                                   ?>
                                       <ul>
                                           <li>
-                                              <span class="post"><?php echo $rs['name']; ?></span>
-                                              <span class="name"><?php echo $rs['nianji']; ?></span>
+                                              <span class="post"><?php echo $rs['zhiwei']; ?></span>
+                                              <span class="name"><?php echo $rs['name']; ?></span>
+                                              <span class="grade"><?php echo $rs['nianji']; ?></span>
                                           </li>
                                       </ul>
                                       <?php } ?>
@@ -330,7 +330,7 @@ include("header file.php");
                               <h3>新闻出版中心</h3>
                               <div>
                                   <?php
-                                      $sql = "SELECT * FROM `team` WHERE bumen LIKE '%新闻部%' limit 0,30";
+                                      $sql = "SELECT * FROM `office` ORDER BY `id`  DESC limit 10,20";
                                       $query = mysql_query($sql);
                                       while ($rs = mysql_fetch_array($query)) {
                                   ?>
