@@ -313,138 +313,139 @@ include("header file.php");
                  <div class="content"> <!-- 管理团队 -->
                           <div class="group show">
                               <div>
+                                 <ul>
                                   <?php
                                       $sql = "SELECT * FROM `office` ORDER BY `id`  ASC limit 0,15";
                                       $query = mysql_query($sql);
                                       while ($rs = mysql_fetch_array($query)) {
                                   ?>
-                                      <ul>
                                           <li>
                                               <span class="post"><?php echo $rs['zhiwei']; ?></span>
                                               <span class="name"><?php echo $rs['name']; ?></span>
                                               <span class="grade"><?php echo $rs['nianji']; ?></span>
                                           </li>
-                                      </ul>
                                       <?php } ?>
+                                      </ul>
                               </div>
                           </div>
                           <div class="group">
                               <div>
+                                  <ul>
                                   <?php
                                       $sql = "SELECT * FROM `office` ORDER BY `id`  ASC limit 16,30";
                                       $query = mysql_query($sql);
                                       while ($rs = mysql_fetch_array($query)) {
                                   ?>
-                                      <ul>
                                           <li>
                                               <span class="post"><?php echo $rs['zhiwei']; ?></span>
                                               <span class="name"><?php echo $rs['name']; ?></span>
                                               <span class="grade"><?php echo $rs['nianji']; ?></span>
                                           </li>
-                                      </ul>
                                       <?php } ?>
+                                      </ul>
                               </div>
                           </div>
                           <div class="group">
                               <div>
+                                  <ul>                                  
                                   <?php
                                        $sql = "SELECT * FROM `office` ORDER BY `id` ASC limit 31,45";
                                       $query = mysql_query($sql);
                                       while ($rs = mysql_fetch_array($query)) {
                                   ?>
-                                  <ul>
                                       <li>
                                           <span class="post"><?php echo $rs['zhiwei']; ?></span>
                                           <span class="name"><?php echo $rs['name']; ?></span>
                                           <span class="grade"><?php echo $rs['nianji']; ?></span>
                                       </li>
-                                  </ul>
                                   <?php } ?>
+                                  </ul>
                               </div>
                           </div>
                           <div class="group">
                               <div>
+                                  <ul>
                                   <?php
  									  $sql = "SELECT * FROM `office` ORDER BY `id` ASC limit 46,60";
                                       $query = mysql_query($sql);
                                       while ($rs = mysql_fetch_array($query)) {
                                   ?>
-                                  <ul>
                                       <li>
                                           <span class="post"><?php echo $rs['zhiwei']; ?></span>
                                           <span class="name"><?php echo $rs['name']; ?></span>
                                           <span class="grade"><?php echo $rs['nianji']; ?></span>
                                       </li>
-                                  </ul>
                                   <?php } ?>
+                                  </ul>
                               </div>
                           </div>
                           <div class="group">
                               <div>
+                                 <ul>
                                   <?php
 									  $sql = "SELECT * FROM `office` ORDER BY `id` ASC limit 61,75";
                                       $query = mysql_query($sql);
                                       while ($rs = mysql_fetch_array($query)) {
                                   ?>
-                                  <ul>
                                       <li>
                                           <span class="post"><?php echo $rs['zhiwei']; ?></span>
                                           <span class="name"><?php echo $rs['name']; ?></span>
                                           <span class="grade"><?php echo $rs['nianji']; ?></span>
                                       </li>
-                                  </ul>
                                   <?php } ?>
+                                  </ul>
                               </div>
                           </div>
                           <div class="group">
                               <div>
+                                  <ul>
                                   <?php
 									  $sql = "SELECT * FROM `office` ORDER BY `id` ASC limit 76,90";
                                       $query = mysql_query($sql);
                                       while ($rs = mysql_fetch_array($query)) {
                                   ?>
-                                  <ul>
                                       <li>
                                           <span class="post"><?php echo $rs['zhiwei']; ?></span>
                                           <span class="name"><?php echo $rs['name']; ?></span>
                                           <span class="grade"><?php echo $rs['nianji']; ?></span>
                                       </li>
-                                  </ul>
                                   <?php } ?>
+                                  </ul>
                               </div>
                           </div>
                           <div class="group">
                               <div>
+                                  <ul>
                                   <?php
 									  $sql = "SELECT * FROM `office` ORDER BY `id` ASC limit 91,105";
                                       $query = mysql_query($sql);
                                       while ($rs = mysql_fetch_array($query)) {
                                   ?>
-                                  <ul>
+
                                       <li>
                                           <span class="post"><?php echo $rs['zhiwei']; ?></span>
                                           <span class="name"><?php echo $rs['name']; ?></span>
                                           <span class="grade"><?php echo $rs['nianji']; ?></span>
                                       </li>
-                                  </ul>
                                   <?php } ?>
+                                  </ul>
                               </div>
                           </div>
                           <div class="group">
                               <div>
+                              	  <ul>
                                   <?php
 									  $sql = "SELECT * FROM `office` ORDER BY `id` ASC limit 106,120";
                                       $query = mysql_query($sql);
                                       while ($rs = mysql_fetch_array($query)) {
                                   ?>
-                                  <ul>
                                       <li>
                                           <span class="post"><?php echo $rs['zhiwei']; ?></span>
                                           <span class="name"><?php echo $rs['name']; ?></span>
                                           <span class="grade"><?php echo $rs['nianji']; ?></span>
                                       </li>
-                                  </ul>
                                   <?php } ?>
+                                  </ul>
                               </div>
                           </div>
                       </div>
