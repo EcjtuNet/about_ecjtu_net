@@ -43,7 +43,7 @@ ul{ list-style:none;}
 /*group*/
 .group{ padding-left:35px; display:none;}
 .group h3{ padding-bottom:40px; font-family:"微软雅黑";}
-.group li{ padding-bottom:18px;line-height:30px; _padding-bottom:0;clear:both;}
+.group li{ padding-bottom:18px;line-height:20px; _padding-bottom:0;clear:both;}
 .post,.name,.grade{ display:inline; float:left; font-family:"微软雅黑"; font-size:14px;}
 .post{ width:137px;}
 .name{ width:200px;}
