@@ -186,6 +186,16 @@
 		display('show',group[4],group,'group');
 		display('bright',grpA[4],grpA,'grp_a');
 		};
+	grpA[5].onmouseover=function(){
+		sentCookie(grpA[5]);
+		display('show',group[5],group,'group');
+		display('bright',grpA[5],grpA,'grp_a');
+		};
+	grpA[6].onmouseover=function(){
+		sentCookie(grpA[6]);
+		display('show',group[6],group,'group');
+		display('bright',grpA[6],grpA,'grp_a');
+		};
 	adA[0].onmouseover=function(){
 		sentCookie(adA[0]);
 		display('show',ad[0],ad,'ad');
