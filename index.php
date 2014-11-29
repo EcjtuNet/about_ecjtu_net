@@ -332,7 +332,7 @@ include("header file.php");
                               <div>
                                   <ul>
                                   <?php
-                                      $sql = "SELECT * FROM `office` ORDER BY `id`  ASC limit 15,28";
+                                      $sql = "SELECT * FROM `office` ORDER BY `id`  ASC limit 16,15";
                                       $query = mysql_query($sql);
                                       while ($rs = mysql_fetch_array($query)) {
                                   ?>
@@ -349,7 +349,7 @@ include("header file.php");
                               <div>
                                   <ul>                                  
                                   <?php
-                                       $sql = "SELECT * FROM `office` ORDER BY `id` ASC limit 29,43";
+                                       $sql = "SELECT * FROM `office` ORDER BY `id` ASC limit 30,15";
                                       $query = mysql_query($sql);
                                       while ($rs = mysql_fetch_array($query)) {
                                   ?>
@@ -366,7 +366,7 @@ include("header file.php");
                               <div>
                                   <ul>
                                   <?php
- 									  $sql = "SELECT * FROM `office` ORDER BY `id` ASC limit 44,58";
+ 									  $sql = "SELECT * FROM `office` ORDER BY `id` ASC limit 46,15";
                                       $query = mysql_query($sql);
                                       while ($rs = mysql_fetch_array($query)) {
                                   ?>
@@ -383,7 +383,7 @@ include("header file.php");
                               <div>
                                  <ul>
                                   <?php
-									  $sql = "SELECT * FROM `office` ORDER BY `id` ASC limit 59,73";
+									  $sql = "SELECT * FROM `office` ORDER BY `id` ASC limit 60,15";
                                       $query = mysql_query($sql);
                                       while ($rs = mysql_fetch_array($query)) {
                                   ?>
@@ -400,7 +400,7 @@ include("header file.php");
                               <div>
                                   <ul>
                                   <?php
-									  $sql = "SELECT * FROM `office` ORDER BY `id` ASC limit 74,88";
+									  $sql = "SELECT * FROM `office` ORDER BY `id` ASC limit 75,15";
                                       $query = mysql_query($sql);
                                       while ($rs = mysql_fetch_array($query)) {
                                   ?>
@@ -417,7 +417,7 @@ include("header file.php");
                               <div>
                                   <ul>
                                   <?php
-									  $sql = "SELECT * FROM `office` ORDER BY `id` ASC limit 89,103";
+									  $sql = "SELECT * FROM `office` ORDER BY `id` ASC limit 90,15";
                                       $query = mysql_query($sql);
                                       while ($rs = mysql_fetch_array($query)) {
                                   ?>
@@ -435,7 +435,7 @@ include("header file.php");
                               <div>
                               	  <ul>
                                   <?php
-									  $sql = "SELECT * FROM `office` ORDER BY `id` ASC limit 104,108";
+									  $sql = "SELECT * FROM `office` ORDER BY `id` ASC limit 105,15";
                                       $query = mysql_query($sql);
                                       while ($rs = mysql_fetch_array($query)) {
                                   ?>
