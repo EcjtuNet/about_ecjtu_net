@@ -24,7 +24,7 @@ ul{ list-style:none;}
 #main_1,#main_2,#main_3,#main_4,#main_5{width:925px;height:500px; }
 .side,.content{height:500px;}
 .side{background-color:#2d5a73;width:145px;height:470px;float:left;padding-top:30px;}
-.side_a,.grp_a,.ad_a,.bright{height:60px;width:145px;display:block;font-family:"微软雅黑";font-size:18px;font-weight:bold;color:#FFF;text-align:center;                             text-decoration:none;line-height:60px;}
+.side_a,.grp_a,.ad_a,.bright{height:30px;width:145px;display:block;font-family:"微软雅黑";font-size:18px;font-weight:bold;color:#FFF;text-align:center;                             text-decoration:none;line-height:30px;}
 .bright{ background-color:#e9fdc3;color:#f8931d;}
 #scr{ position:relative;top:5px;height:500px;}
 /*about*/

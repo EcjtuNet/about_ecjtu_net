@@ -300,13 +300,19 @@ include("header file.php");
                  <div id="main_3">
                           <div class="side">
                               <ul>
-                                  <li><a class="grp_a bright">2001-2002</a></li>
-                                  <li><a class="grp_a">2002-2003</a></li>
-                                  <li><a class="grp_a">2003-2004</a></li>
-                                  <li><a class="grp_a">2004-2005</a></li>
-                                  <li><a class="grp_a">2005-2006</a></li>
-                                  <li><a class="grp_a">2006-2007</a></li>
-                                  <li><a class="grp_a">2007-2008</a></li>
+                                  <li><a class="grp_a bright">2001届</a></li>
+                                  <li><a class="grp_a">2002届</a></li>
+                                  <li><a class="grp_a">2003届</a></li>
+                                  <li><a class="grp_a">2004届</a></li>
+                                  <li><a class="grp_a">2005届</a></li>
+                                  <li><a class="grp_a">2006届</a></li>
+                                  <li><a class="grp_a">2007届</a></li>
+                                  <li><a class="grp_a">2008届</a></li>
+                                  <li><a class="grp_a">2009届</a></li>
+                                  <li><a class="grp_a">2010届</a></li>
+                                  <li><a class="grp_a">2011届</a></li>
+                                  <li><a class="grp_a">2012届</a></li>
+                                  <li><a class="grp_a">2013届</a></li>
                               </ul>
                           </div>
         
@@ -315,7 +321,7 @@ include("header file.php");
                               <div>
                                  <ul>
                                   <?php
-                                      $sql = "SELECT * FROM `office` ORDER BY `id`  ASC limit 0,22";
+                                      $sql = "SELECT * FROM `office` ORDER BY `id`  ASC limit 0,9";
                                       $query = mysql_query($sql);
                                       while ($rs = mysql_fetch_array($query)) {
                                   ?>
@@ -332,7 +338,7 @@ include("header file.php");
                               <div>
                                   <ul>
                                   <?php
-                                      $sql = "SELECT * FROM `office` ORDER BY `id`  ASC limit 23,22";
+                                      $sql = "SELECT * FROM `office` ORDER BY `id`  ASC limit 10,10";
                                       $query = mysql_query($sql);
                                       while ($rs = mysql_fetch_array($query)) {
                                   ?>
@@ -349,7 +355,7 @@ include("header file.php");
                               <div>
                                   <ul>                                  
                                   <?php
-                                       $sql = "SELECT * FROM `office` ORDER BY `id` ASC limit 46,22";
+                                       $sql = "SELECT * FROM `office` ORDER BY `id` ASC limit 20,10";
                                       $query = mysql_query($sql);
                                       while ($rs = mysql_fetch_array($query)) {
                                   ?>
@@ -366,7 +372,7 @@ include("header file.php");
                               <div>
                                   <ul>
                                   <?php
- 									  $sql = "SELECT * FROM `office` ORDER BY `id` ASC limit 69,22";
+ 									  $sql = "SELECT * FROM `office` ORDER BY `id` ASC limit 30,17";
                                       $query = mysql_query($sql);
                                       while ($rs = mysql_fetch_array($query)) {
                                   ?>
@@ -383,7 +389,7 @@ include("header file.php");
                               <div>
                                  <ul>
                                   <?php
-									  $sql = "SELECT * FROM `office` ORDER BY `id` ASC limit 92,22";
+									  $sql = "SELECT * FROM `office` ORDER BY `id` ASC limit 47,24";
                                       $query = mysql_query($sql);
                                       while ($rs = mysql_fetch_array($query)) {
                                   ?>
@@ -400,7 +406,7 @@ include("header file.php");
                               <div>
                                   <ul>
                                   <?php
-									  $sql = "SELECT * FROM `office` ORDER BY `id` ASC limit 115,22";
+									  $sql = "SELECT * FROM `office` ORDER BY `id` ASC limit 70,21";
                                       $query = mysql_query($sql);
                                       while ($rs = mysql_fetch_array($query)) {
                                   ?>
@@ -417,7 +423,7 @@ include("header file.php");
                               <div>
                                   <ul>
                                   <?php
-									  $sql = "SELECT * FROM `office` ORDER BY `id` ASC limit 138,22";
+									  $sql = "SELECT * FROM `office` ORDER BY `id` ASC limit 91,29";
                                       $query = mysql_query($sql);
                                       while ($rs = mysql_fetch_array($query)) {
                                   ?>
@@ -435,7 +441,24 @@ include("header file.php");
                               <div>
                               	  <ul>
                                   <?php
-									  $sql = "SELECT * FROM `office` ORDER BY `id` ASC limit 161,22";
+									  $sql = "SELECT * FROM `office` ORDER BY `id` ASC limit 120,40";
+                                      $query = mysql_query($sql);
+                                      while ($rs = mysql_fetch_array($query)) {
+                                  ?>
+                                      <li>
+                                          <span class="post"><?php echo $rs['zhiwei']; ?></span>
+                                          <span class="name"><?php echo $rs['name']; ?></span>
+                                          <span class="grade"><?php echo $rs['nianji']; ?></span>
+                                      </li>
+                                  <?php } ?>
+                                  </ul>
+                              </div>
+                          </div>
+                          <div class="group">
+                              <div>
+                              	  <ul>
+                                  <?php
+									  $sql = "SELECT * FROM `office` ORDER BY `id` ASC limit 160,30";
                                       $query = mysql_query($sql);
                                       while ($rs = mysql_fetch_array($query)) {
                                   ?>
