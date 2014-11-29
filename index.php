@@ -313,7 +313,7 @@ include("header file.php");
                               <h3>日新站长</h3>
                               <div>
                                   <?php
-                                      $sql = "SELECT * FROM `office` WHERE zhiwei LIKE '站　长'  ORDER BY `id`  DESC limit 0,30";
+                                      $sql = "SELECT * FROM `office` ORDER BY `id`  DESC limit 0,30";
                                       $query = mysql_query($sql);
                                       while ($rs = mysql_fetch_array($query)) {
                                   ?>
