@@ -312,7 +312,7 @@ include("header file.php");
                           <div class="group show">
                               <div>
                                   <?php
-                                      $sql = "SELECT * FROM `office` ORDER BY `id`  DESC limit 0,10";
+                                      $sql = "SELECT * FROM `office` ORDER BY `id`  ASC limit 0,15";
                                       $query = mysql_query($sql);
                                       while ($rs = mysql_fetch_array($query)) {
                                   ?>
