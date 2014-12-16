@@ -1,8 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>å…³äºŽæˆ‘ä»¬</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+<title>¹ØÓÚÎÒÃÇ</title>
 <link href="index.css" type="text/css" rel="stylesheet" />
 
 </head>
@@ -16,16 +16,16 @@ include("header file.php");
      <div class="center">
     	 <div id="logo_word">
           		<div id="logo"><a href="//www.ecjtu.net"><img src="img/logo.png"/></a></div>
-          		 <div id="word"><img alt="è‡´åŠ›äºŽäº¤å¤§å­¦å­çš„ç”Ÿæ´»" src="img/wenzi.png"/></div>
+          		 <div id="word"><img alt="ÖÂÁ¦ÓÚ½»´óÑ§×ÓµÄÉú»î" src="img/wenzi.png"/></div>
      		</div>
            <div id="nav">
               <nav>
                    <ul id="nav_ul">
-                      <li><a class="nav_a dif" href="javascript:;">å…³äºŽæˆ‘ä»¬</a></li>
-                      <li><a class="nav_a" href="javascript:;">æ—¥æ–°å¤§äº‹</a></li>
-                      <li><a class="nav_a" href="javascript:;">ç®¡ç†å›¢é˜Ÿ</a></li>
-                      <li><a class="nav_a" href="javascript:;">å¹¿å‘ŠæœåŠ¡</a></li>
-                      <li><a class="nav_a" href="http://hr.ecjtu.net/">äººæ‰æ‹›è˜</a></li>
+                      <li><a class="nav_a dif" href="javascript:;">¹ØÓÚÎÒÃÇ</a></li>
+                      <li><a class="nav_a" href="javascript:;">ÈÕÐÂ´óÊÂ</a></li>
+                      <li><a class="nav_a" href="javascript:;">¹ÜÀíÍÅ¶Ó</a></li>
+                      <li><a class="nav_a" href="javascript:;">¹ã¸æ·þÎñ</a></li>
+                      <li><a class="nav_a" href="http://hr.ecjtu.net/">ÈË²ÅÕÐÆ¸</a></li>
                    </ul>
               </nav>
           </div>
@@ -37,16 +37,16 @@ include("header file.php");
                  <div id="main_1">
                      <div id="content_1">
                      <div id="img">
-                        <img src="img/about-banner.png" alt="å…³äºŽæˆ‘ä»¬" />
+                        <img src="img/about-banner.png" alt="¹ØÓÚÎÒÃÇ" />
                      </div>
                      <div >
                          <div id="us">
-                             <span id="squ"></span><span>å…³äºŽæˆ‘ä»¬</span>
+                             <span id="squ"></span><span>¹ØÓÚÎÒÃÇ</span>
                          </div>    
-                         <p>åŽä¸œäº¤é€šå¤§å­¦æ€æƒ³æ”¿æ²»æ•™è‚²ç½‘ç«™â€”â€”æ—¥æ–°ç½‘ï¼ˆwww.ecjtu.netï¼‰å»ºç«‹äºŽ2001å¹´6æœˆï¼Œæ—¥æ–°ç½‘åœ¨åŽä¸œäº¤é€šå¤§å­¦å…šå§”å…³å¿ƒæ”¯æŒä¸‹ï¼Œåœ¨å­¦ç”Ÿå·¥ä½œå¤„å›¢å§”çš„ç›´æŽ¥é¢†å¯¼ä¸‹ï¼Œå§‹ç»ˆé«˜ä¸¾é‚“å°å¹³ç†è®ºä¼Ÿå¤§æ——å¸œï¼Œè´¯å½»"ä¸‰ä¸ªä»£è¡¨"é‡è¦æ€æƒ³ï¼Œè½å®žç§‘å­¦å‘å±•è§‚ï¼ŒåšæŒæ­£ç¡®çš„åŠžç½‘å®—æ—¨ï¼ŒåšæŒæ­£ç¡®çš„èˆ†è®ºå¯¼å‘ï¼Œç´§æ‰£å­¦æ ¡çš„å‘å±•ä¸»çº¿ï¼ŒåšæŒä¸ºå¹¿å¤§å¸ˆç”ŸæœåŠ¡ã€‚</p>
+                         <p>»ª¶«½»Í¨´óÑ§Ë¼ÏëÕþÖÎ½ÌÓýÍøÕ¾¨D¨DÈÕÐÂÍø£¨www.ecjtu.net£©½¨Á¢ÓÚ2001Äê6ÔÂ£¬ÈÕÐÂÍøÔÚ»ª¶«½»Í¨´óÑ§µ³Î¯¹ØÐÄÖ§³ÖÏÂ£¬ÔÚÑ§Éú¹¤×÷´¦ÍÅÎ¯µÄÖ±½ÓÁìµ¼ÏÂ£¬Ê¼ÖÕ¸ß¾ÙµËÐ¡Æ½ÀíÂÛÎ°´óÆìÖÄ£¬¹á³¹"Èý¸ö´ú±í"ÖØÒªË¼Ïë£¬ÂäÊµ¿ÆÑ§·¢Õ¹¹Û£¬¼á³ÖÕýÈ·µÄ°ìÍø×ÚÖ¼£¬¼á³ÖÕýÈ·µÄÓßÂÛµ¼Ïò£¬½ô¿ÛÑ§Ð£µÄ·¢Õ¹Ö÷Ïß£¬¼á³ÖÎª¹ã´óÊ¦Éú·þÎñ¡£</p>
                          <div id="twoImg">
-                             <div class="intro"><a href="http://hr.ecjtu.net/index.php/hr/intro_newcomer">ä¸­å¿ƒç®€ä»‹</a></div>
-                             <div class="intro"><a href="http://hr.ecjtu.net/index.php/hr/intro_product">äº§å“ç®€ä»‹</a></div>
+                             <div class="intro"><a href="http://hr.ecjtu.net/index.php/hr/intro_newcomer">ÖÐÐÄ¼ò½é</a></div>
+                             <div class="intro"><a href="http://hr.ecjtu.net/index.php/hr/intro_product">²úÆ·¼ò½é</a></div>
                          </div>
                      </div>
                  </div>
@@ -300,28 +300,28 @@ include("header file.php");
                  <div id="main_3">
                           <div class="side">
                               <ul>
-                                  <li><a class="grp_a bright">2001å±Š</a></li>
-                                  <li><a class="grp_a">2002å±Š</a></li>
-                                  <li><a class="grp_a">2003å±Š</a></li>
-                                  <li><a class="grp_a">2004å±Š</a></li>
-                                  <li><a class="grp_a">2005å±Š</a></li>
-                                  <li><a class="grp_a">2006å±Š</a></li>
-                                  <li><a class="grp_a">2007å±Š</a></li>
-                                  <li><a class="grp_a">2008å±Š</a></li>
-                                  <li><a class="grp_a">2009å±Š</a></li>
-                                  <li><a class="grp_a">2010å±Š</a></li>
-                                  <li><a class="grp_a">2011å±Š</a></li>
-                                  <li><a class="grp_a">2012å±Š</a></li>
-                                  <li><a class="grp_a">2013å±Š</a></li>
+                                  <li><a class="grp_a bright">µÚÒ»½ì</a></li>
+                                  <li><a class="grp_a">µÚ¶þ½ì</a></li>
+                                  <li><a class="grp_a">µÚÈý½ì</a></li>
+                                  <li><a class="grp_a">µÚËÄ½ì</a></li>
+                                  <li><a class="grp_a">µÚÎå½ì</a></li>
+                                  <li><a class="grp_a">µÚÁù½ì</a></li>
+                                  <li><a class="grp_a">µÚÆß½ì</a></li>
+                                  <li><a class="grp_a">µÚ°Ë½ì</a></li>
+                                  <li><a class="grp_a">µÚ¾Å½ì</a></li>
+                                  <li><a class="grp_a">µÚÊ®½ì</a></li>
+                                  <li><a class="grp_a">µÚÊ®Ò»½ì</a></li>
+                                  <li><a class="grp_a">µÚÊ®¶þ½ì</a></li>
+                                  <li><a class="grp_a">µÚÊ®Èý½ì</a></li>
                               </ul>
                           </div>
         
-                 <div class="content"> <!-- ç®¡ç†å›¢é˜Ÿ -->
+                 <div class="content"> <!-- ¹ÜÀíÍÅ¶Ó -->
                           <div class="group show">
                               <div>
                                  <ul>
                                   <?php
-                                      $sql = "SELECT * FROM `office` ORDER BY `id`  ASC limit 0,9";
+                                      $sql = "SELECT * FROM `office` WHERE `jieshu` = 1 ORDER BY `id`  ASC";
                                       $query = mysql_query($sql);
                                       while ($rs = mysql_fetch_array($query)) {
                                   ?>
@@ -338,7 +338,7 @@ include("header file.php");
                               <div>
                                   <ul>
                                   <?php
-                                      $sql = "SELECT * FROM `office` ORDER BY `id`  ASC limit 9,10";
+                                      $sql = "SELECT * FROM `office` WHERE `jieshu` = 2 ORDER BY `id`  ASC";
                                       $query = mysql_query($sql);
                                       while ($rs = mysql_fetch_array($query)) {
                                   ?>
@@ -355,7 +355,7 @@ include("header file.php");
                               <div>
                                   <ul>                                  
                                   <?php
-                                       $sql = "SELECT * FROM `office` ORDER BY `id` ASC limit 19,10";
+                                      $sql = "SELECT * FROM `office` WHERE `jieshu` = 3 ORDER BY `id` ASC";
                                       $query = mysql_query($sql);
                                       while ($rs = mysql_fetch_array($query)) {
                                   ?>
@@ -372,7 +372,7 @@ include("header file.php");
                               <div>
                                   <ul>
                                   <?php
- 									  $sql = "SELECT * FROM `office` ORDER BY `id` ASC limit 29,15";
+ 			 	      $sql = "SELECT * FROM `office` WHERE `jieshu` = 4 ORDER BY `id` ASC";
                                       $query = mysql_query($sql);
                                       while ($rs = mysql_fetch_array($query)) {
                                   ?>
@@ -389,7 +389,7 @@ include("header file.php");
                               <div>
                                  <ul>
                                   <?php
-									  $sql = "SELECT * FROM `office` ORDER BY `id` ASC limit 46,24";
+				      $sql = "SELECT * FROM `office` WHERE `jieshu` = 5 ORDER BY `id` ASC";
                                       $query = mysql_query($sql);
                                       while ($rs = mysql_fetch_array($query)) {
                                   ?>
@@ -406,7 +406,7 @@ include("header file.php");
                               <div>
                                   <ul>
                                   <?php
-									  $sql = "SELECT * FROM `office` ORDER BY `id` ASC limit 69,19";
+				      $sql = "SELECT * FROM `office` WHERE `jieshu` = 6 ORDER BY `id` ASC";
                                       $query = mysql_query($sql);
                                       while ($rs = mysql_fetch_array($query)) {
                                   ?>
@@ -423,7 +423,7 @@ include("header file.php");
                               <div>
                                   <ul>
                                   <?php
-									  $sql = "SELECT * FROM `office` ORDER BY `id` ASC limit 90,29";
+				      $sql = "SELECT * FROM `office` WHERE `jieshu` = 7 ORDER BY `id` ASC LIMIT 0,23";
                                       $query = mysql_query($sql);
                                       while ($rs = mysql_fetch_array($query)) {
                                   ?>
@@ -435,13 +435,28 @@ include("header file.php");
                                       </li>
                                   <?php } ?>
                                   </ul>
+				  <ul>
+                                  <?php
+                                      $sql = "SELECT * FROM `office` WHERE `jieshu` = 7 ORDER BY `id` ASC LIMIT 23,23";
+                                      $query = mysql_query($sql);
+                                      while ($rs = mysql_fetch_array($query)) {
+                                  ?>
+
+                                      <li>
+                                          <span class="post"><?php echo $rs['zhiwei']; ?></span>
+                                          <span class="name"><?php echo $rs['name']; ?></span>
+                                          <span class="grade"><?php echo $rs['nianji']; ?></span>
+                                      </li>
+                                  <?php } ?>
+                                  </ul>
+
                               </div>
                           </div>
                           <div class="group">
                               <div>
                               	  <ul>
                                   <?php
-									  $sql = "SELECT * FROM `office` ORDER BY `id` ASC limit 119,40";
+				      $sql = "SELECT * FROM `office` WHERE `jieshu` = 8 ORDER BY `id` ASC LIMIT 0,23";
                                       $query = mysql_query($sql);
                                       while ($rs = mysql_fetch_array($query)) {
                                   ?>
@@ -452,13 +467,28 @@ include("header file.php");
                                       </li>
                                   <?php } ?>
                                   </ul>
+				  <ul>
+                                  <?php
+                                      $sql = "SELECT * FROM `office` WHERE `jieshu` = 8 ORDER BY `id` ASC LIMIT 23,23";
+                                      $query = mysql_query($sql);
+                                      while ($rs = mysql_fetch_array($query)) {
+                                  ?>
+
+                                      <li>
+                                          <span class="post"><?php echo $rs['zhiwei']; ?></span>
+                                          <span class="name"><?php echo $rs['name']; ?></span>
+                                          <span class="grade"><?php echo $rs['nianji']; ?></span>
+                                      </li>
+                                  <?php } ?>
+                                  </ul>
+	
                               </div>
                           </div>
                           <div class="group">
                               <div>
                               	  <ul>
                                   <?php
-									  $sql = "SELECT * FROM `office` ORDER BY `id` ASC limit 159,30";
+				      $sql = "SELECT * FROM `office` WHERE `jieshu` = 9 ORDER BY `id` ASC LIMIT 0,23";
                                       $query = mysql_query($sql);
                                       while ($rs = mysql_fetch_array($query)) {
                                   ?>
@@ -469,6 +499,21 @@ include("header file.php");
                                       </li>
                                   <?php } ?>
                                   </ul>
+				  <ul>
+                                  <?php
+                                      $sql = "SELECT * FROM `office` WHERE `jieshu` = 9 ORDER BY `id` ASC LIMIT 23,23";
+                                      $query = mysql_query($sql);
+                                      while ($rs = mysql_fetch_array($query)) {
+                                  ?>
+
+                                      <li>
+                                          <span class="post"><?php echo $rs['zhiwei']; ?></span>
+                                          <span class="name"><?php echo $rs['name']; ?></span>
+                                          <span class="grade"><?php echo $rs['nianji']; ?></span>
+                                      </li>
+                                  <?php } ?>
+                                  </ul>
+
                               </div>
                           </div>
                       </div>
@@ -476,84 +521,84 @@ include("header file.php");
                  <div id="main_4">
                       <div class="side">
                          <ul class="side_ul">
-                             <li><a href="javascript:;" class="ad_a bright">æœ¬ç«™ç‰¹è‰²</a></li>
-                             <li><a href="javascript:;" class="ad_a">å¹¿å‘ŠæŠ¥ä»·</a></li>
+                             <li><a href="javascript:;" class="ad_a bright">±¾Õ¾ÌØÉ«</a></li>
+                             <li><a href="javascript:;" class="ad_a">¹ã¸æ±¨¼Û</a></li>
                          </ul>
                      </div>
                      <div class="content">
                           <div id="fea" class="ad show">
                             <div>
-                              <h3>1ã€ç”¨æˆ·é‡å¤§</h3>
-                              <p>æœ¬ç«™è®¿é—®é‡å¾ˆé«˜ï¼Œæ¯æ—¥pageviewsè¶…è¿‡9000äººæ¬¡ï¼Œæ³¨å†Œä¼šå‘˜åœ¨çŸ­æœŸå†…å·²è¶…è¿‡ä¸¤ä¸‡äººï¼Œè€Œä¸”ä»åœ¨ä¸æ–­å¢žé•¿ï¼Œæ˜¯æˆ‘æ ¡è§„æ¨¡æœ€å¤§çš„ç»¼åˆæ€§ç½‘ç«™ã€‚ç”±äºŽæˆ‘ç«™é¢å‘äº¤å¤§å­¦ç”Ÿï¼Œç»™å¤§å®¶æä¾›äº†ç•…æ‰€æ¬²è¨€çš„åœºæ‰€ï¼Œæ­£å› å¦‚æ­¤ï¼Œç”¨æˆ·å®šä½éžå¸¸é›†ä¸­ã€‚</p>
+                              <h3>1¡¢ÓÃ»§Á¿´ó</h3>
+                              <p>±¾Õ¾·ÃÎÊÁ¿ºÜ¸ß£¬Ã¿ÈÕpageviews³¬¹ý9000ÈË´Î£¬×¢²á»áÔ±ÔÚ¶ÌÆÚÄÚÒÑ³¬¹ýÁ½ÍòÈË£¬¶øÇÒÈÔÔÚ²»¶ÏÔö³¤£¬ÊÇÎÒÐ£¹æÄ£×î´óµÄ×ÛºÏÐÔÍøÕ¾¡£ÓÉÓÚÎÒÕ¾ÃæÏò½»´óÑ§Éú£¬¸ø´ó¼ÒÌá¹©ÁË³©ËùÓûÑÔµÄ³¡Ëù£¬ÕýÒòÈç´Ë£¬ÓÃ»§¶¨Î»·Ç³£¼¯ÖÐ¡£</p>
                             </div>
                             <div>
-                              <h3>2ã€ç”¨æˆ·ç¾¤ç¨³å®š</h3>
-                              <p>æœ¬ç«™ç”¨æˆ·ä¸ºé•¿æœŸç§¯ç´¯è€Œæˆï¼Œå¹¶éžç‚’ä½œè€Œå½¢æˆçš„æµåŠ¨ç”¨æˆ·ã€‚å› æ­¤ç”¨æˆ·ç¾¤éžå¸¸ç¨³å®šï¼Œç›¸ä¿¡ä»¥åŽç”¨æˆ·ç¾¤ä¼šæ—¥ç›Šå¢žåŠ ï¼Œå¹¶ä¸”ç¨³æ­¥å¢žé•¿ï¼</p>
+                              <h3>2¡¢ÓÃ»§ÈºÎÈ¶¨</h3>
+                              <p>±¾Õ¾ÓÃ»§Îª³¤ÆÚ»ýÀÛ¶ø³É£¬²¢·Ç³´×÷¶øÐÎ³ÉµÄÁ÷¶¯ÓÃ»§¡£Òò´ËÓÃ»§Èº·Ç³£ÎÈ¶¨£¬ÏàÐÅÒÔºóÓÃ»§Èº»áÈÕÒæÔö¼Ó£¬²¢ÇÒÎÈ²½Ôö³¤£¡</p>
                             </div>
                             <div>
-                              <h3>3ã€æœåŠ¡å‘¨åˆ°</h3>
-                              <p>å¦‚æžœæ‚¨å¸Œæœ›åœ¨æˆ‘ä»¬ç½‘ç«™æ‰“å‡ºæ‚¨è‡ªå·±çš„å¹¿å‘Šï¼Œæˆ‘ä»¬å°†ä¼šå¸®æ‚¨åˆ¶ä½œç›¸åº”çš„banneræˆ–è€…é¡µé¢ï¼Œè€Œæ‚¨åªéœ€è¦æŒ‰ç…§ä¸‹é¢çš„æ ‡å‡†ç»™äºˆæˆ‘ä»¬ç›¸åº”çš„èµžåŠ©å°±è¶³å¤Ÿäº†ã€‚è¿™æ˜¯æ¯å¤©24å°æ—¶éƒ½ä¼šåœ¨çº¿çš„å¹¿å‘Šï¼ç›¸ä¿¡æ‚¨å¾®è–„çš„æŠ•å…¥å¯ä»¥èŽ·å¾—ä¸è²çš„æ”¶ç›Šã€‚</p>
+                              <h3>3¡¢·þÎñÖÜµ½</h3>
+                              <p>Èç¹ûÄúÏ£ÍûÔÚÎÒÃÇÍøÕ¾´ò³öÄú×Ô¼ºµÄ¹ã¸æ£¬ÎÒÃÇ½«»á°ïÄúÖÆ×÷ÏàÓ¦µÄbanner»òÕßÒ³Ãæ£¬¶øÄúÖ»ÐèÒª°´ÕÕÏÂÃæµÄ±ê×¼¸øÓèÎÒÃÇÏàÓ¦µÄÔÞÖú¾Í×ã¹»ÁË¡£ÕâÊÇÃ¿Ìì24Ð¡Ê±¶¼»áÔÚÏßµÄ¹ã¸æ£¡ÏàÐÅÄúÎ¢±¡µÄÍ¶Èë¿ÉÒÔ»ñµÃ²»·ÆµÄÊÕÒæ¡£</p>
                             </div>
                             <div>
-                              <h3>4ã€æ›´æ–°åŠæ—¶</h3>
-                              <p>æ—¥æ–°ç½‘ï¼Œè´µåœ¨ä¸€ä¸ªæ–°å­—ï¼Œç½‘ç«™æ¯å‘¨éƒ½æœ‰åŠæ—¶çš„æ›´æ–°ï¼Œæ¯å¤©éƒ½æœ‰ä¸“äººè´Ÿè´£ç½‘ç«™äº‹åŠ¡ï¼Œä»¥ä¾¿ä½œå¥½æ›´æ–°å·¥ä½œã€‚</p>
+                              <h3>4¡¢¸üÐÂ¼°Ê±</h3>
+                              <p>ÈÕÐÂÍø£¬¹óÔÚÒ»¸öÐÂ×Ö£¬ÍøÕ¾Ã¿ÖÜ¶¼ÓÐ¼°Ê±µÄ¸üÐÂ£¬Ã¿Ìì¶¼ÓÐ×¨ÈË¸ºÔðÍøÕ¾ÊÂÎñ£¬ÒÔ±ã×÷ºÃ¸üÐÂ¹¤×÷¡£</p>
                             </div>
                           </div>
                           <div id="adMny" class="ad">
                               <table id="idTbl">
                                   <tr>
-                                      <th>ä½ç½®</th>
-                                      <th id="px">è§„æ ¼ï¼ˆåƒç´ ï¼‰</th>
-                                      <th id="typ">ç±»åž‹</th>
-                                      <th id="big">å¤§å°</th>
-                                      <th id="much">ä»·æ ¼</th>
+                                      <th>Î»ÖÃ</th>
+                                      <th id="px">¹æ¸ñ£¨ÏñËØ£©</th>
+                                      <th id="typ">ÀàÐÍ</th>
+                                      <th id="big">´óÐ¡</th>
+                                      <th id="much">¼Û¸ñ</th>
                                   </tr>
                                   <tr id="fir">
-                                      <td>é¦–é¡µ</td>
+                                      <td>Ê×Ò³</td>
                                       <td class="two">558*101</td>
-                                      <td>gifæˆ–è€…jpg</td>
-                                      <td>å°äºŽ20k</td>
-                                      <td>500/æœˆ</td>
+                                      <td>gif»òÕßjpg</td>
+                                      <td>Ð¡ÓÚ20k</td>
+                                      <td>500/ÔÂ</td>
                                   </tr>
                                   <tr>
-                                      <td class="sco">è®ºå›é¦–é¡µ</td>
+                                      <td class="sco">ÂÛÌ³Ê×Ò³</td>
                                       <td class="sco two">468*60</td>
-                                      <td class="sco">gifæˆ–è€…jpg</td>
-                                      <td class="sco">å°äºŽ20k</td>
-                                      <td class="sco">400/æœˆ</td>
+                                      <td class="sco">gif»òÕßjpg</td>
+                                      <td class="sco">Ð¡ÓÚ20k</td>
+                                      <td class="sco">400/ÔÂ</td>
                                   </tr>
                                   <tr>
-                                      <td class="tir">å¼¹å‡ºçª—å£ï¼ˆä¸»é¡µï¼‰</td>
+                                      <td class="tir">µ¯³ö´°¿Ú£¨Ö÷Ò³£©</td>
                                       <td class="tir two">320*240</td>
-                                      <td class="tir">gifæˆ–è€…jpg</td>
-                                      <td class="tir">å°äºŽ10k</td>
-                                      <td class="tir">50å…ƒ/å¤©</td>
+                                      <td class="tir">gif»òÕßjpg</td>
+                                      <td class="tir">Ð¡ÓÚ10k</td>
+                                      <td class="tir">50Ôª/Ìì</td>
                                   </tr>
                                   <tr>
-                                      <td class="four">æ¼‚æµ®çª—å£ï¼ˆä¸»é¡µé¡µä¸­ï¼‰</td>
+                                      <td class="four">Æ¯¸¡´°¿Ú£¨Ö÷Ò³Ò³ÖÐ£©</td>
                                       <td class="four two">120*90</td>
-                                      <td class="four">æ— </td>
-                                      <td class="four">æ— </td>
-                                      <td class="four">25å…ƒ/å¤©</td>
+                                      <td class="four">ÎÞ</td>
+                                      <td class="four">ÎÞ</td>
+                                      <td class="four">25Ôª/Ìì</td>
                                   </tr>
                                   <tr>
-                                      <td class="fiv">æ–‡å­—å…¬å‘Š</td>
-                                      <td class="fiv two" colspan="3">ä»¥æ–°é—»å…¬å‘Šçš„å½¢å¼åœ¨é¦–é¡µæ˜¾ç¤ºæ–‡å­—é“¾æŽ¥ï¼Œç‚¹å‡»è¿›å…¥è¯¦ç»†ä»‹ç»é¡µé¢</td>
-                                      <td class="fiv">100å…ƒ/æ¡</td>
+                                      <td class="fiv">ÎÄ×Ö¹«¸æ</td>
+                                      <td class="fiv two" colspan="3">ÒÔÐÂÎÅ¹«¸æµÄÐÎÊ½ÔÚÊ×Ò³ÏÔÊ¾ÎÄ×ÖÁ´½Ó£¬µã»÷½øÈëÏêÏ¸½éÉÜÒ³Ãæ</td>
+                                      <td class="fiv">100Ôª/Ìõ</td>
                                   </tr>
                                  
                               </table> 
                               <div id="more">
-                                  <h3>å¤‡æ³¨ï¼š</h3>
+                                  <h3>±¸×¢£º</h3>
                                   <p>
-                                      <span>ä»¥ä¸Šå¹¿å‘Šçš„ç­¾å®šæ—¶é—´ä»¥ä¸€ä¸ªæœˆä¸ºåŸºç¡€ï¼›</span>
-                                      <span class="more_span">æ´»åŠ¨å›¾æ ‡å¹¿å‘Šä»¥ä¸€å¤©ä¸ºåŸºç¡€;</span>
+                                      <span>ÒÔÉÏ¹ã¸æµÄÇ©¶¨Ê±¼äÒÔÒ»¸öÔÂÎª»ù´¡£»</span>
+                                      <span class="more_span">»î¶¯Í¼±ê¹ã¸æÒÔÒ»ÌìÎª»ù´¡;</span>
                                   </p>
                                   <p>
-                                      <span>æ ¹æ®å®¢æˆ·éœ€æ±‚å›¾åƒå¤§å°å¯åšé€‚å½“è°ƒæ•´ï¼›</span>
-                                      <span class="more_span">ç²¾å“æ ç›®çš„å¹¿å‘Šä»·æ ¼è¯·å‚ç…§ç‰ˆå—é¡µé¢é¡µå¤´å¹¿å‘Šçš„ä»·æ ¼ï¼›</span>
+                                      <span>¸ù¾Ý¿Í»§ÐèÇóÍ¼Ïñ´óÐ¡¿É×öÊÊµ±µ÷Õû£»</span>
+                                      <span class="more_span">¾«Æ·À¸Ä¿µÄ¹ã¸æ¼Û¸ñÇë²ÎÕÕ°æ¿éÒ³ÃæÒ³Í·¹ã¸æµÄ¼Û¸ñ£»</span>
                                   </p>
-                                  <p>å…¶ä¸­é“¾æŽ¥å¹¿å‘Šä¸­åœ¨æœ€æ–°åŠ¨æ€å¤„åšçš„æ–‡å­—é“¾æŽ¥ä»¥ä¸€å¤©ä¸ºåŸºç¡€ã€‚</p>
+                                  <p>ÆäÖÐÁ´½Ó¹ã¸æÖÐÔÚ×îÐÂ¶¯Ì¬´¦×öµÄÎÄ×ÖÁ´½ÓÒÔÒ»ÌìÎª»ù´¡¡£</p>
                               </div>
                           </div>
                      </div>
@@ -569,14 +614,14 @@ include("header file.php");
     </div>          
      <div id="bottom">
      <p>
-        <a href="javascript:;">å…³äºŽæˆ‘ä»¬</a> |
-        <a href="http://hr.ecjtu.net/">äººæ‰æ‹›è˜</a> |
-        <a href="javascript:;">æ—¥æ–°å¯¼èˆª</a> |
-        <a href="javascript:;">å¹¿å‘ŠæœåŠ¡</a> |
-        <a href="javascript:;">æ„è§åé¦ˆ</a> |
-        <a href="javascript:;">ä¸è‰¯ä¿¡æ¯åé¦ˆ</a>
+        <a href="javascript:;">¹ØÓÚÎÒÃÇ</a> |
+        <a href="http://hr.ecjtu.net/">ÈË²ÅÕÐÆ¸</a> |
+        <a href="javascript:;">ÈÕÐÂµ¼º½</a> |
+        <a href="javascript:;">¹ã¸æ·þÎñ</a> |
+        <a href="javascript:;">Òâ¼û·´À¡</a> |
+        <a href="javascript:;">²»Á¼ÐÅÏ¢·´À¡</a>
      </p>
-     <p>åŽä¸œäº¤é€šå¤§å­¦å›¢å§”ã€å­¦å·¥å¤„ [ ç‰ˆæƒæ‰€æœ‰ äº¤å¤§æ—¥æ–° ] èµ£ICPå¤‡05003322å· æ—¥æ–°å·¥ä½œå®¤ ç»´æŠ¤</p>
+     <p>»ª¶«½»Í¨´óÑ§ÍÅÎ¯¡¢Ñ§¹¤´¦ [ °æÈ¨ËùÓÐ ½»´óÈÕÐÂ ] ¸ÓICP±¸05003322ºÅ ÈÕÐÂ¹¤×÷ÊÒ Î¬»¤</p>
      <p>CopyRight 2001-2011 By [ecjtu.net] .All Rights Reserved</p>
      </div>
 

@@ -43,10 +43,11 @@ ul{ list-style:none;}
 /*group*/
 .group{ padding-left:35px; display:none;}
 .group h3{ padding-bottom:40px; font-family:"微软雅黑";}
-.group li{ padding-bottom:18px;line-height:20px; _padding-bottom:0;clear:both;}
+.group ul{float:left;width:350px;} 
+.group li{ padding-bottom:18px;line-height:20px; _padding-bottom:0;clear:both; width:420px;}
 .post,.name,.grade{ display:inline; float:left; font-family:"微软雅黑"; font-size:14px;}
 .post{ width:137px;}
-.name{ width:200px;}
+.name{ width:100px;}
 .grade{ width:132px;}
 
 /*广告报价*/
