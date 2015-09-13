@@ -37,6 +37,8 @@ ul{ list-style:none;}
 #twoImg{ margin-left:39px;}
 #twoImg .intro a{ width:338px;height:82px; background-image:url(img/intro.jpg);float:left; display:inline; font-size:32px; color:#FFF; font-family:"微软雅黑";
         text-align:center; line-height:82px; margin-left:54px; text-decoration:none;}
+/* hover前加载 防止hover时空白情况 */
+.hoverImg{background-image:url(img/intro_3.jpg);}
 #twoImg .intro a:hover{ background-image:url(img/intro_3.jpg);}
 
 
@@ -86,3 +88,4 @@ th{ text-align:left; font-size:18px;}
 #bottom a{text-decoration:none;}
 #bottom a:hover{color: #f8931d;}
 #bottom a,#bottom{color:#fffcfc;font-size:14px;font-family:"微软雅黑";}
+
