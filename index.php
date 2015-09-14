@@ -3,7 +3,6 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gbk" />
 <title>关于我们</title>
-<script type="text/javascript" src="browser.js"></script>
 <link href="index.css" type="text/css" rel="stylesheet" />
 
 </head>
@@ -615,9 +614,9 @@ include("header file.php");
     </div>          
      <div id="bottom">
      <p>
-        <a href="/about">关于我们</a> |
+        <a href="javascript:;">关于我们</a> |
         <a href="http://hr.ecjtu.net/">人才招聘</a> |
-        <a href="//123.ecjtu.net">日新导航</a> |
+        <a href="javascript:;">日新导航</a> |
         <a href="javascript:;">广告服务</a> |
         <a href="javascript:;">意见反馈</a> |
         <a href="javascript:;">不良信息反馈</a>
@@ -627,6 +626,7 @@ include("header file.php");
      </div>
 
 </div>
+<script type="text/javascript" src="browser.js"></script>
 <script type="text/javascript" src="index.js"></script>
 </body>
 </html>
