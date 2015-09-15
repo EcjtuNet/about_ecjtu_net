@@ -1,6 +1,6 @@
 $(document).ready(function(){
 		$('.nav li').click( function ( event ) {
-			event.preventDefault();
+			//event.preventDefault();
 			if ( $(this).attr('class') !=='yellow'){
 				$(this).siblings('.yellow').removeClass('yellow')
 				.end().addClass('yellow');

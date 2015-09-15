@@ -43,7 +43,7 @@ include("header file.php");
                      <div >
                          <div id="us">
                              <span id="squ"></span><span>关于我们</span>
-                         </div>    
+                         </div>
                          <p>华东交通大学思想政治教育网站――日新网（www.ecjtu.net）建立于2001年6月，日新网在华东交通大学党委关心支持下，在学生工作处团委的直接领导下，始终高举邓小平理论伟大旗帜，贯彻"三个代表"重要思想，落实科学发展观，坚持正确的办网宗旨，坚持正确的舆论导向，紧扣学校的发展主线，坚持为广大师生服务。</p>
                          <div id="twoImg">
                              <div class="intro"><a href="http://hr.ecjtu.net/index.php/hr/intro_newcomer">中心简介</a></div>
@@ -61,7 +61,7 @@ include("header file.php");
                               <li><a href="javascript:;" class="side_a">2003-2005</a></li>
                               <li><a href="javascript:;" class="side_a">2001-2002</a></li>
                           </ul>
-                      </div>     
+                      </div>
                  <div class="content">
                  		 <!-- <div class="even show">
                  		  	  <div class="year">
@@ -85,7 +85,7 @@ include("header file.php");
                  		  	  </div>
                  		  </div> -->
                           <div class="even show"> <!-- 2009-2012 -->
-                              <?php 
+                              <?php
                                   $sql = "SELECT * FROM  `rxevents` WHERE DATE LIKE  '%2009%' limit 0,6";
                                   $query = mysql_query($sql);
                                   while ($rs = mysql_fetch_array($query)) {
@@ -93,7 +93,7 @@ include("header file.php");
                               <div class="year">
                                      <ul>
                                          <li><?php echo str_replace("[","", str_replace("]", "",$rs['date'] ));?></li>
-                                     </ul>   
+                                     </ul>
                                   </div>
                               <div class="thing">
                                       <ul>
@@ -101,7 +101,7 @@ include("header file.php");
                                       </ul>
                                   </div>
                               <?php }?>
-                              <?php 
+                              <?php
 
                                   $sql = "SELECT * FROM  `rxevents` WHERE DATE LIKE  '%2010%' limit 0,6";
                                   $query = mysql_query($sql);
@@ -110,7 +110,7 @@ include("header file.php");
                               <div class="year">
                                      <ul>
                                          <li><?php echo str_replace("[","", str_replace("]", "",$rs['date'] ));?></li>
-                                     </ul>   
+                                     </ul>
                                   </div>
                               <div class="thing">
                                       <ul>
@@ -119,7 +119,7 @@ include("header file.php");
                                   </div>
                               <?php }?>
                               <div class="clear"></div>
-                              <?php 
+                              <?php
 
                                   $sql = "SELECT * FROM  `rxevents` WHERE DATE LIKE  '%2011%' limit 0,5";
                                   $query = mysql_query($sql);
@@ -128,7 +128,7 @@ include("header file.php");
                               <div class="year">
                                      <ul>
                                          <li><?php echo str_replace("[","", str_replace("]", "",$rs['date'] ));?></li>
-                                     </ul>   
+                                     </ul>
                                   </div>
                               <div class="thing">
                                       <ul>
@@ -137,7 +137,7 @@ include("header file.php");
                                   </div>
                               <?php }?>
                               <div class="clear"></div>
-                              <?php 
+                              <?php
 
                                   $sql = "SELECT * FROM  `rxevents` WHERE DATE LIKE  '%2012%' limit 0,5";
                                   $query = mysql_query($sql);
@@ -146,7 +146,7 @@ include("header file.php");
                               <div class="year">
                                      <ul>
                                          <li><?php echo str_replace("[","", str_replace("]", "",$rs['date'] ));?></li>
-                                     </ul>   
+                                     </ul>
                                   </div>
                               <div class="thing">
                                       <ul>
@@ -156,7 +156,7 @@ include("header file.php");
                               <?php }?>
                           </div>
                           <div class="even"><!-- 2006-2008 -->
-                              <?php 
+                              <?php
 
                                   $sql = "SELECT * FROM  `rxevents` WHERE DATE LIKE  '%2006%' limit 0,3";
                                   $query = mysql_query($sql);
@@ -165,7 +165,7 @@ include("header file.php");
                               <div class="year">
                                      <ul>
                                          <li><?php echo str_replace("[","", str_replace("]", "",$rs['date'] ));?></li>
-                                     </ul>   
+                                     </ul>
                                   </div>
                               <div class="thing">
                                       <ul>
@@ -173,7 +173,7 @@ include("header file.php");
                                       </ul>
                                   </div>
                               <?php }?>
-                              <?php 
+                              <?php
 
                                   $sql = "SELECT * FROM  `rxevents` WHERE DATE LIKE  '%2007%' limit 0,3";
                                   $query = mysql_query($sql);
@@ -182,7 +182,7 @@ include("header file.php");
                               <div class="year">
                                      <ul>
                                          <li><?php echo str_replace("[","", str_replace("]", "",$rs['date'] ));?></li>
-                                     </ul>   
+                                     </ul>
                                   </div>
                               <div class="thing">
                                       <ul>
@@ -190,7 +190,7 @@ include("header file.php");
                                       </ul>
                                   </div>
                               <?php }?>
-                              <?php 
+                              <?php
 
                                   $sql = "SELECT * FROM  `rxevents` WHERE DATE LIKE  '%2008%' limit 0,5";
                                   $query = mysql_query($sql);
@@ -199,17 +199,17 @@ include("header file.php");
                               <div class="year">
                                      <ul>
                                          <li><?php echo str_replace("[","", str_replace("]", "",$rs['date'] ));?></li>
-                                     </ul>   
+                                     </ul>
                                   </div>
                               <div class="thing">
                                       <ul>
                                           <li><?php echo $rs['content'];?></li>
                                       </ul>
                                   </div>
-                              <?php }?>  
+                              <?php }?>
                           </div>
                           <div class="even"> <!-- 2003-2005 -->
-                              <?php 
+                              <?php
                                   $sql = "SELECT * FROM  `rxevents` WHERE DATE LIKE  '%2003%' limit 0,3";
                                   $query = mysql_query($sql);
                                   while ($rs = mysql_fetch_array($query)) {
@@ -217,7 +217,7 @@ include("header file.php");
                                     <div class="year">
                                         <ul>
                                             <li><?php echo str_replace("[","", str_replace("]", "",$rs['date'] ));?></li>
-                                        </ul>   
+                                        </ul>
                                     </div>
                               <div class="thing">
                                       <ul>
@@ -225,7 +225,7 @@ include("header file.php");
                                       </ul>
                                   </div>
                               <?php }?>
-                              <?php 
+                              <?php
 
                                   $sql = "SELECT * FROM  `rxevents` WHERE DATE LIKE  '%2004%' limit 0,3";
                                   $query = mysql_query($sql);
@@ -234,7 +234,7 @@ include("header file.php");
                               <div class="year">
                                      <ul>
                                          <li><?php echo str_replace("[","", str_replace("]", "",$rs['date'] ));?></li>
-                                     </ul>   
+                                     </ul>
                                   </div>
                               <div class="thing">
                                       <ul>
@@ -242,7 +242,7 @@ include("header file.php");
                                       </ul>
                                   </div>
                               <?php }?>
-                              <?php 
+                              <?php
 
                                   $sql = "SELECT * FROM  `rxevents` WHERE DATE LIKE  '%2005%' limit 0,3";
                                   $query = mysql_query($sql);
@@ -251,7 +251,7 @@ include("header file.php");
                               <div class="year">
                                      <ul>
                                          <li><?php echo str_replace("[","", str_replace("]", "",$rs['date'] ));?></li>
-                                     </ul>   
+                                     </ul>
                                   </div>
                               <div class="thing">
                                       <ul>
@@ -261,8 +261,8 @@ include("header file.php");
                               <?php }?>
                           </div>
                           <div class="even"> <!-- 2001-2002 -->
-                          
-                            <?php 
+
+                            <?php
                                   $sql = "SELECT * FROM  `rxevents` WHERE DATE LIKE  '%2001%' limit 0,5";
                                   $query = mysql_query($sql);
                                   while ($rs = mysql_fetch_array($query)) {
@@ -270,7 +270,7 @@ include("header file.php");
                               <div class="year">
                                      <ul>
                                          <li><?php echo str_replace("[","", str_replace("]", "",$rs['date'] ));?></li>
-                                     </ul>   
+                                     </ul>
                                   </div>
                               <div class="thing">
                                       <ul>
@@ -278,7 +278,7 @@ include("header file.php");
                                       </ul>
                                   </div>
                                   <?php }?>
-                             <?php 
+                             <?php
 
                                   $sql = "SELECT * FROM  `rxevents` WHERE DATE LIKE  '%2002%' limit 0,5";
                                   $query = mysql_query($sql);
@@ -287,7 +287,7 @@ include("header file.php");
                               <div class="year">
                                      <ul>
                                          <li><?php echo str_replace("[","", str_replace("]", "",$rs['date'] ));?></li>
-                                     </ul>   
+                                     </ul>
                                   </div>
                               <div class="thing">
                                       <ul>
@@ -316,7 +316,7 @@ include("header file.php");
                                   <li><a class="grp_a">第十三届</a></li>
                               </ul>
                           </div>
-        
+
                  <div class="content"> <!-- 管理团队 -->
                           <div class="group show">
                               <div>
@@ -354,7 +354,7 @@ include("header file.php");
                           </div>
                           <div class="group">
                               <div>
-                                  <ul>                                  
+                                  <ul>
                                   <?php
                                       $sql = "SELECT * FROM `office` WHERE `jieshu` = 3 ORDER BY `id` ASC";
                                       $query = mysql_query($sql);
@@ -482,7 +482,7 @@ include("header file.php");
                                       </li>
                                   <?php } ?>
                                   </ul>
-	
+
                               </div>
                           </div>
                           <div class="group">
@@ -587,8 +587,8 @@ include("header file.php");
                                       <td class="fiv two" colspan="3">以新闻公告的形式在首页显示文字链接，点击进入详细介绍页面</td>
                                       <td class="fiv">100元/条</td>
                                   </tr>
-                                 
-                              </table> 
+
+                              </table>
                               <div id="more">
                                   <h3>备注：</h3>
                                   <p>
@@ -612,15 +612,18 @@ include("header file.php");
                     </div>
              </div>
         </div>
-    </div>          
+    </div>
      <div id="bottom">
      <p>
-        <a href="/about">关于我们</a> |
-        <a href="http://hr.ecjtu.net/">人才招聘</a> |
-        <a href="//123.ecjtu.net">日新导航</a> |
-        <a href="javascript:;">广告服务</a> |
-        <a href="javascript:;">意见反馈</a> |
-        <a href="javascript:;">不良信息反馈</a>
+        <a target="_blank" href="http://www.ecjtu.net/about/index.php">关于我们</a>
+        |
+        <a href="http://hr.ecjtu.net/" target="_blank"> 网站建设</a>
+        |
+        <a href="http://bbs.ecjtu.net/forum-25-1.html" target="_blank">意见反馈</a>
+        |
+        <a href="http://123.ecjtu.net/" target="_blank">友情链接</a>
+        |
+        <a href="mailto:roger@ecjtu.jx.cn" target="_blank">不良信息举报</a>
      </p>
      <p>华东交通大学团委、学工处 [ 版权所有 交大日新 ] 赣ICP备05003322号 日新工作室 维护</p>
      <p>CopyRight 2001-2011 By [ecjtu.net] .All Rights Reserved</p>
