@@ -272,12 +272,12 @@ a:link, a:visited, a:hover, a:active {
 		width:90%;
 	}
 		.container p{
-			font:bold 10px "Microsoft YaHei";
+			font:bold 15px "Microsoft YaHei";
 			line-height:22px;
 			text-indent:2em;
 			color:#757575;
 		}
-		.link{
+		/*.link{
 			clear:left;
 			width:165px;
 			height:45px;
@@ -295,7 +295,7 @@ a:link, a:visited, a:hover, a:active {
 				color:#fff;
 				line-height:45px;
 				text-align:center;
-			}
+			}*/
 		#ex{
 			margin-bottom:63px;
 		}
